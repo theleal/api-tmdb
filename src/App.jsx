@@ -1,24 +1,14 @@
-import { useState } from 'react'
+import { Outlet } from 'react-router-dom';
 import './App.css' 
-import { Link, Outlet } from 'react-router-dom';
-
+import NavBar from './components/NavBar.jsx';
 
 function App() {
-
   return (
-    <>
       <div className='App'> 
-      <nav className='navbar'>
-      <h2>
-        <Link to="/">MoviesLib</Link>
-      </h2>
-        <Link to="/movie/1">Movies</Link>
-        <Link to="/search">search</Link>
-      </nav>
-        <h1>Movie Library API Tests</h1>
-        {/* <Outlet /> */}
+        <NavBar />
+        <h2>Movie Library API Tests</h2>
+        <Outlet />
       </div>
-    </>
   );
 }
 
