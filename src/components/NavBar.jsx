@@ -6,7 +6,7 @@ const NavBar = () => {
     
     <nav id='navbar'>
       <h2>
-        <Link to="/"> 
+        <Link to="/">  
             <BiCameraMovie/> MoviesLib
         </Link>
       </h2>
@@ -17,9 +17,8 @@ const NavBar = () => {
             </button>
         </form>
       </nav>
-    )
-
-}
+    );
+};
 
 export default NavBar;
 

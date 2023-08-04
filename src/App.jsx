@@ -1,15 +1,15 @@
 import { Outlet } from 'react-router-dom';
+import NavBar from './components/NavBar';
 import './App.css' 
-import NavBar from './components/NavBar.jsx';
 
 function App() {
   return (
       <div className='App'> 
         <NavBar />
         <h2>Movie Library API Tests</h2>
-        <Outlet />
+        <Outlet/>
       </div>
   );
 }
 
-export default App
+export default App;
