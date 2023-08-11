@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const Movie = () => {
     return (
-        <div>Movie </div>
+        <div>Luiz  </div>
     )
 
 };
